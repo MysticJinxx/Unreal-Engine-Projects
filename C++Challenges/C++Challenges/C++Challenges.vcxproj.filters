@@ -18,5 +18,31 @@
     <ClCompile Include="C++Challenges.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Vehicles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dogs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pitbull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vehicles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dogs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pitbull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,2 +1,5 @@
 ﻿  C++Challenges.cpp
-  C++Challenges.vcxproj -> C:\Users\disho\Documents\Github Repositories\Unreal-Engine-Projects\C++Challenges\Debug\C++Challenges.exe
+C:\Users\disho\Documents\Github Repositories\Unreal-Engine-Projects\C++Challenges\C++Challenges\C++Challenges.cpp(353,9): error C2512: 'Dog': no appropriate default constructor available
+C:\Users\disho\Documents\Github Repositories\Unreal-Engine-Projects\C++Challenges\C++Challenges\Pet.h(19,7): message : see declaration of 'Dog'
+  Pet.cpp
+  Generating Code...
