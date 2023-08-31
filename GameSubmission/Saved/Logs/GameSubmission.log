@@ -2853,3 +2853,81 @@ Continue: Skip saving this asset only.
 [2023.08.31-16.51.18:130][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
 [2023.08.31-16.51.18:148][330]LogPlayLevel: Display: Destroying online subsystem :Context_36
 [2023.08.31-16.51.22:171][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.08.31-16.53.39:032][158]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.31-16.53.39:037][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.31-16.53.39:037][158]PIE: New page: PIE session: MainMenu (Aug 31, 2023, 4:53:39 AM)
+[2023.08.31-16.53.39:037][158]LogPlayLevel: Creating play world package: /Game/MainMenu/UEDPIE_0_MainMenu
+[2023.08.31-16.53.39:038][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000854s)
+[2023.08.31-16.53.39:038][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu/MainMenu.MainMenu to /Game/MainMenu/UEDPIE_0_MainMenu.MainMenu (0.000896s)
+[2023.08.31-16.53.39:038][158]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.08.31-16.53.39:038][158]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.31-16.53.39:038][158]LogAIModule: Creating AISystem for world MainMenu
+[2023.08.31-16.53.39:038][158]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2023.08.31-16.53.39:069][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.08.31-16.53.39:070][158]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.08.31-16.53.39:070][158]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.31-16.53.39:070][158]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.31-16.53.39:070][158]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.31-16.53.39:070][158]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.31-16.53.39:070][158]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.08.31-16.53.39:070][158]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.31-16.53.39:070][158]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.08.31-16.53.39:070][158]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.31-16.53.39:070][158]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.31-16.53.39:070][158]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.31-16.53.39:070][158]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.31-16.53.39:073][158]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.31-16.53.39:165][158]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2023.08.31-16.53.39:165][158]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.31-16.53.39:166][158]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.31-16.53.39:166][158]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.31-16.53.39:166][158]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.08.31-16.53.39:166][158]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.08.31-16.53.39:167][158]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.08.31-16.53.39:167][158]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.08.31-16.53.39:167][158]LogInit: FAudioDevice initialized.
+[2023.08.31-16.53.39:167][158]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainMenu'.
+[2023.08.31-16.53.39:178][158]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.31-16.53.39:178][158]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2023.08.31-10.53.39
+[2023.08.31-16.53.39:178][158]LogWorld: Bringing up level for play took: 0.000262
+[2023.08.31-16.53.39:180][158]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.08.31-16.53.39:184][158]PIE: Server logged in
+[2023.08.31-16.53.39:185][158]PIE: Play in editor total start time 0.148 seconds.
+[2023.08.31-16.55.01:067][688]LogNet: Browse: /Game/GameLevel/GameLevel
+[2023.08.31-16.55.01:067][688]LogLoad: LoadMap: /Game/GameLevel/GameLevel
+[2023.08.31-16.55.01:067][688]LogWorld: BeginTearingDown for /Game/MainMenu/UEDPIE_0_MainMenu
+[2023.08.31-16.55.01:067][688]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2023.08.31-16.55.01:067][688]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.08.31-16.55.01:067][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.55.01:093][688]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.31-16.55.01:095][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.08.31-16.55.01:103][688]LogAudio: Display: Audio Device (ID: 13) registered with world 'GameLevel'.
+[2023.08.31-16.55.01:103][688]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.08.31-16.55.01:103][688]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.31-16.55.01:103][688]LogAIModule: Creating AISystem for world GameLevel
+[2023.08.31-16.55.01:103][688]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2023.08.31-16.55.01:103][688]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.08.31-16.55.01:104][688]LogWorld: Bringing World /Game/GameLevel/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 60) at 2023.08.31-10.55.01
+[2023.08.31-16.55.01:104][688]LogWorld: Bringing up level for play took: 0.001165
+[2023.08.31-16.55.01:107][688]LogLoad: Took 0.039297 seconds to LoadMap(/Game/GameLevel/GameLevel)
+[2023.08.31-16.55.03:129][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.31-16.55.03:129][750]LogWorld: BeginTearingDown for /Game/GameLevel/UEDPIE_0_GameLevel
+[2023.08.31-16.55.03:130][750]LogWorld: UWorld::CleanupWorld for GameLevel, bSessionEnded=true, bCleanupResources=true
+[2023.08.31-16.55.03:130][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.55.03:141][750]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.31-16.55.03:144][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.31-16.55.03:171][750]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.31-16.55.03:171][750]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.08.31-16.55.03:172][750]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.08.31-16.55.03:190][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.31-16.55.03:192][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.08.31-16.55.03:202][751]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.08.31-16.55.16:423][481]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.08.31-16.55.16:423][481]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.08.31-16.55.42:825][ 50]BlueprintLog: New page: Compile BP_MainMenu
+[2023.08.31-16.55.42:865][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.08.31-16.55.43:320][ 69]LogSavePackage: Moving output files for package: /Game/MainMenu/BP_MainMenu
+[2023.08.31-16.55.43:321][ 69]LogSavePackage: Moving '../../../../../../Users/disho/Documents/Github Repositories/Unreal-Engine-Projects/GameSubmission/Saved/BP_MainMenu46601ACB4DF13BB3AE11E2AA99DD6550.tmp' to '../../../../../../Users/disho/Documents/Github Repositories/Unreal-Engine-Projects/GameSubmission/Content/MainMenu/BP_MainMenu.uasset'
+[2023.08.31-16.55.43:331][ 69]AssetCheck: New page: Asset Save: BP_MainMenu
+[2023.08.31-16.55.43:331][ 69]LogContentValidation: Display: Validating EditorUtilityWidgetBlueprint /Game/MainMenu/BP_MainMenu.BP_MainMenu
+[2023.08.31-17.26.45:338][184]LogDerivedDataCache: C:/Users/disho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.235 and deleted 0 file(s) with total size 0 MiB.
